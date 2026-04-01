@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* layout */
+.container {
+    display: flex;
+}
+
+/* LEFT */
+.left {
+    width: 250px;
+    padding: 20px;
+}
+
+/* ô MSSV */
+.item {
+    display: block;
+    background: #2e7d32;       /* xanh lá đậm */
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;       /* cách nhau như hình */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* khi đưa chuột vào */
+.item:hover {
+    background: #ff69b4;       /* hồng */
+    transform: scale(1.05);   /* phóng nhẹ */
+}
+
+/* RIGHT */
+.right {
+    padding: 20px;
+}
